@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/api/resources/Resources.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">src/api/resources</a> Resources.ts
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">20% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>14/70</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/16</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">20.29% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>14/69</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { ResponseType } from 'lexica-dialog-model/dist/Intent';
+import { TicketType, TicketStatus, AddPayload } from 'lexica-dialog-model/dist/Ticket';
+import * as Router from 'koa-router';
+import * as Boom from 'boom';
+import {
+  filter, find, assign, isNil, defaultTo, result as _result, every, pick,
+&nbsp;
+} from 'lodash';
+&nbsp;
+import {
+  intentRepository,
+  IntentModel,
+  ticketRepository,
+  TicketModel,
+} from 'lexica-dialog-repository';
+&nbsp;
+const router = <span class="fstat-no" title="function not covered" >new Router();</span>
+<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+const ticketRequiredKey = [<span class="cstat-no" title="statement not covered" ></span>
+  'id',<span class="cstat-no" title="statement not covered" ></span>
+  'payload.category',<span class="cstat-no" title="statement not covered" ></span>
+  'payload.subCategory',<span class="cstat-no" title="statement not covered" ></span>
+  'paylo<span class="cstat-no" title="statement not covered" >ad.responses',</span>
+  'payload.s<span class="cstat-no" title="statement not covered" >ampleQue</span>stion',
+];
+<span class="cstat-no" title="statement not covered" ></span>
+async fu<span class="cstat-no" title="statement not covered" >nction intentParser(intents: IntentModel[], tickets: TicketModel[]) {</span>
+  return await Promise.all(intents.map(async (intent) =&gt; {
+    const { _id: id, responses, category, subCategory: subCat, sampleQuestion } = intent;
+    const ticket = find(tickets, { intentId: String(id) });
+    const subCategory = defaultTo&lt;string&gt;(subCat, '').trim().toUpperCase();
+    const textOnlyResponses = filter(responses, { type: ResponseType.TEXT });
+&nbsp;
+    if (isNil(textOnlyResponses.length) || category.toUpperCase() === 'HIDDEN') {
+      return;
+    }
+<span class="fstat-no" title="function not covered" ></span>
+    const pendingAct<span class="cstat-no" title="statement not covered" >ion = _result(t</span>icket, 'payload.action', undefined);
+<span class="cstat-no" title="statement not covered" ></span>
+    return {<span class="cstat-no" title="statement not covered" ></span>
+      category: cate<span class="cstat-no" title="statement not covered" >gory.trim().toUpperCase(),</span>
+<span class="cstat-no" title="statement not covered" >      id,</span>
+      pendingAction,<span class="cstat-no" title="statement not covered" ></span>
+      responses,<span class="cstat-no" title="statement not covered" ></span>
+      sa<span class="cstat-no" title="statement not covered" >mpleQuestion,<span class="fstat-no" title="function not covered" ></span></span>
+      subCat<span class="cstat-no" title="statement not covered" >egory: subCategory.trim().toUpperCase(),</span>
+    };<span class="cstat-no" title="statement not covered" ></span>
+  }));<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+router.get('/', async (ctx) =&gt; {
+  const { uni } = ctx.state.user;
+  const { pending } = ctx.request.query;
+  const intentResult: { [key: string]: any } = {};
+  const intents = await intentRepository.findByUni(uni);
+&nbsp;
+  if (typeof pending !== 'undefined') {
+    const pendingAction = await ticketRepository.findByUniAndStatus(uni, TicketStatus.PENDING);
+    const pendingIntent = filter(pendingAction, { payload: { action: TicketType.ADD } });
+    ctx.body = pendingIntent.map(
+      (ticket) =&gt; {<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >        if (ticket.payload.action === TicketType.ADD) {</span>
+          const {
+            id,
+            payload: {<span class="fstat-no" title="function not covered" ></span>
+              category,<span class="cstat-no" title="statement not covered" ></span>
+              subCategory,<span class="cstat-no" title="statement not covered" ></span>
+              sampleQuestion,<span class="cstat-no" title="statement not covered" ></span>
+              responses,<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >            },</span>
+          } = pick(ticket,<span class="cstat-no" title="statement not covered" > ticketRequiredKey) as<span class="fstat-no" title="function not covered" ></span></span>
+            {<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >              id: any,</span>
+              payload: AddPayload,
+            };<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" ></span>
+          return {
+            id,
+            payload: {
+              category: category.trim().toUpperCase(),
+              responses,
+              sampleQuestion,
+              subCategory: subCategory.trim().toUpperCase(),
+            },
+          };
+        }
+      });
+  } else {
+    cons<span class="cstat-no" title="statement not covered" >t allPendingTicket = await ticketR</span>epository.findByUniAndStatus(uni, TicketStatus.PENDING);
+    ctx.<span class="cstat-no" title="statement not covered" >body = await intentParser(intents, a</span>llPendingTicket);
+  }<span class="cstat-no" title="statement not covered" ></span>
+});<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+router.patch('/:resourceId', async (ctx) =&gt; {
+  const <span class="cstat-no" title="statement not covered" >{ resourceId } = ctx.p</span>arams;
+  const { uni, id: userId } = ctx.state.user;
+  const { responses: newResponses, sampleQuestion } = ctx.request.body;
+  const oldResponses = await i<span class="fstat-no" title="function not covered" >nt</span>entRepository.findById(resourceId);
+<span class="cstat-no" title="statement not covered" ></span>
+  if (!isNil(oldResponses)) {<span class="cstat-no" title="statement not covered" ></span>
+    const responses<span class="cstat-no" title="statement not covered" > = oldResponses.responses.map((response: any) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      const newResponse = defaultTo(find(newResponses, { _id: response.id }), response);</span>
+      return assign(res<span class="cstat-no" title="statement not covered" >ponse, newResponse);</span>
+    });<span class="cstat-no" title="statement not covered" ></span>
+    const sq = defaultTo(<span class="cstat-no" title="statement not covered" >sampleQuest</span>ion, oldResponses.sampleQuestion);
+    await ti<span class="cstat-no" title="statement not covered" >cketRepository.save({</span>
+      date: new Date,
+      intentId: resourceId,
+      origin: oldResponses,
+      payload: {
+        action: TicketType.UPDATE,
+        responses,
+        sampleQuestion:sq,
+      },
+      status: TicketStatus.COMPLETED,
+      uni,
+      userId,
+    });<span class="cstat-no" title="statement not covered" ></span>
+    oldResponses.sampleQuestion = sq;
+    oldResponses.responses = responses;
+    const al<span class="cstat-no" title="statement not covered" >lPendingTicket = await</span> ticketRepository.findByUniAndStatus(uni, TicketStatus.PENDING);
+    ctx.body = await intentParser([(await intentRepository.save(oldResponses))], allPendingTicket);
+  } else {
+    throw Boom.badData();
+  }<span class="cstat-no" title="statement not covered" ></span>
+});
+&nbsp;
+router.delete('/<span class="fstat-no" title="function not covered" >:r</span>esourceId', async (ctx) =&gt; {
+  const { resourceId: intentId }<span class="cstat-no" title="statement not covered" > = ctx.params;</span>
+  const { uni, id: userId } = ctx.state.user;<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  const <span class="cstat-no" title="statement not covered" >ticket = await ticketR</span>epository.findByUniAndStatusAndIntentId(
+    uni,
+    TicketStatus.PENDING,
+    intentId,<span class="cstat-no" title="statement not covered" ></span>
+  );<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  if (isNil(ticket)) {
+    const intent = await intentRepository.findById(intentId);
+    if (!isNil(intent)) {
+      const date = new Date();
+      await ticketRepository.save({
+        date,
+        intentId,
+        origin: intent,
+        payload: {
+          action: TicketType.DELETE,
+          delete: false
+        },
+        status: TicketStatus.PENDING,
+        uni,
+        userId,
+      });
+      ctx.body = [intent.category, intent.subCategory, intentId].join('.');
+    } else {
+      th<span class="cstat-no" title="statement not covered" >row Boom.badData();</span>
+    }
+  } else {
+    ctx.body = 'already pending for deletion';
+  }
+});
+&nbsp;
+router.put('/', async (ctx) =&gt; {
+  const { uni, id: userId } = ctx.state.user;
+  const { category, subCategory, sampleQuestion, response } = ctx.request.body;
+&nbsp;
+  if (!every([category, subCategory, sampleQuestion, response], value =&gt; value)) {
+    throw Boom.badData();
+  } else {
+    const date = new Date();
+    const ticket = await ticketRepository.save({
+      date,
+      payload: {
+        action: TicketType.ADD,
+        category,
+        responses: [{
+          messages: [
+            {
+              'en-GB': response,
+            },
+          ],
+          type: ResponseType.TEXT,
+        }],
+        sampleQuestion,
+        subCategory,
+      },
+      status: TicketStatus.PENDING,
+      uni,
+      userId,
+    });
+    ctx.body = pick(ticket, ticketRequiredKey);
+  }
+});
+&nbsp;
+export default router;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jun 15 2019 13:29:09 GMT+0800 (HKT)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

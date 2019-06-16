@@ -1,0 +1,11 @@
+{
+    "extends": ["tslint:recommended", "tslint-config-prettier"],
+    "rules": {
+        "interface-name": [true, "never-prefix"],
+        "ordered-imports": [false],
+        "no-shadowed-variable": false,
+        "no-var-requires": false,
+        "no-string-literal": false,
+        "no-unused-expression": false
+    }
+}

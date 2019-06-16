@@ -1,0 +1,34 @@
+version: "3"
+services:
+  lexica-virtual-agent-admin-backend:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - $PORT:$PORT
+    environment:
+      PORT: $PORT
+      MONGO_URL: $MONGO_URL
+      SCRYPT_N: $SCRYPT_N
+      SCRYPT_R: $SCRYPT_R
+      SCRYPT_P: $SCRYPT_P
+      SCRYPT_SALT: $SCRYPT_SALT
+      SCRYPT_KEYLEN: $SCRYPT_KEYLEN
+      JWT_KEY: $JWT_KEY
+      JWT_EXPIRE_SECOND: $JWT_EXPIRE_SECOND
+      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+      AWS_REGION: $AWS_REGION
+      AWS_CHATBOT_S3_API_VERSION: $AWS_CHATBOT_S3_API_VERSION
+      AWS_CHATBOT_S3_BUCKET: $AWS_CHATBOT_S3_BUCKET
+      AWS_CHATBOT_SES_API_VERSION: $AWS_CHATBOT_SES_API_VERSION
+      AWS_CHATBOT_SES_REGION: $AWS_CHATBOT_SES_REGION
+      AWS_CHATBOT_SES_SENDER: $AWS_CHATBOT_SES_SENDER
+      SUGGESTION_SERVER_URL: $SUGGESETION_SERVER_URL
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 4G
+    

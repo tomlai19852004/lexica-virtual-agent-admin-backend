@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1560576549560" clover="3.2.0">
+  <project timestamp="1560576549560" name="All files">
+    <metrics statements="834" coveredstatements="460" conditionals="186" coveredconditionals="27" methods="101" coveredmethods="29" elements="1121" coveredelements="516" complexity="0" loc="834" ncloc="834" packages="10" files="39" classes="39">
+      <package name="src">
+        <metrics statements="60" coveredstatements="54" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="5"/>
+        <file name="Constants.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/Constants.ts">
+          <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="25" count="9" type="stmt"/>
+          <line num="26" count="9" type="stmt"/>
+          <line num="33" count="9" type="stmt"/>
+          <line num="34" count="9" type="stmt"/>
+          <line num="35" count="9" type="stmt"/>
+          <line num="36" count="9" type="stmt"/>
+          <line num="37" count="162" type="cond" truecount="1" falsecount="1"/>
+          <line num="38" count="0" type="stmt"/>
+        </file>
+        <file name="Server.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/Server.ts">
+          <metrics statements="44" coveredstatements="43" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+          <line num="23" count="9" type="stmt"/>
+          <line num="24" count="9" type="stmt"/>
+          <line num="25" count="9" type="stmt"/>
+          <line num="26" count="9" type="stmt"/>
+          <line num="27" count="9" type="stmt"/>
+          <line num="28" count="9" type="stmt"/>
+          <line num="36" count="9" type="stmt"/>
+          <line num="40" count="9" type="stmt"/>
+          <line num="42" count="45" type="stmt"/>
+          <line num="43" count="9" type="stmt"/>
+          <line num="44" count="9" type="stmt"/>
+          <line num="49" count="9" type="stmt"/>
+          <line num="50" count="9" type="stmt"/>
+          <line num="51" count="9" type="stmt"/>
+          <line num="52" count="9" type="stmt"/>
+          <line num="53" count="9" type="stmt"/>
+          <line num="55" count="9" type="stmt"/>
+          <line num="56" count="9" type="stmt"/>
+          <line num="57" count="9" type="cond" truecount="1" falsecount="1"/>
+          <line num="58" count="9" type="stmt"/>
+          <line num="59" count="9" type="stmt"/>
+          <line num="61" count="9" type="stmt"/>
+          <line num="62" count="9" type="cond" truecount="1" falsecount="1"/>
+          <line num="63" count="9" type="stmt"/>
+          <line num="64" count="9" type="stmt"/>
+          <line num="65" count="9" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="72" count="9" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/index.ts">
+          <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/index.ts">
+          <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api.controls">
+        <metrics statements="35" coveredstatements="15" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="AutoReply.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/controls/AutoReply.ts">
+          <metrics statements="29" coveredstatements="9" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="9" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="51" count="9" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/controls/index.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api.conversations">
+        <metrics statements="359" coveredstatements="160" conditionals="80" coveredconditionals="2" methods="48" coveredmethods="4"/>
+        <file name="Activities.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/Activities.ts">
+          <metrics statements="27" coveredstatements="9" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="29" count="9" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="53" count="9" type="stmt"/>
+        </file>
+        <file name="Conversations.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/Conversations.ts">
+          <metrics statements="44" coveredstatements="11" conditionals="16" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="92" count="0" type="stmt"/>
+          <line num="111" count="0" type="stmt"/>
+          <line num="156" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="157" count="0" type="stmt"/>
+          <line num="163" count="0" type="stmt"/>
+          <line num="165" count="9" type="stmt"/>
+          <line num="166" count="0" type="stmt"/>
+          <line num="167" count="0" type="stmt"/>
+          <line num="168" count="0" type="stmt"/>
+          <line num="173" count="0" type="stmt"/>
+          <line num="174" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="175" count="0" type="stmt"/>
+          <line num="176" count="0" type="stmt"/>
+          <line num="181" count="0" type="stmt"/>
+          <line num="183" count="0" type="stmt"/>
+          <line num="185" count="0" type="stmt"/>
+          <line num="186" count="0" type="stmt"/>
+          <line num="187" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="190" count="9" type="stmt"/>
+        </file>
+        <file name="EmailForward.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/EmailForward.ts">
+          <metrics statements="15" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="18" count="9" type="stmt"/>
+          <line num="22" count="9" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="47" count="9" type="stmt"/>
+        </file>
+        <file name="FileDownloader.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/FileDownloader.ts">
+          <metrics statements="26" coveredstatements="12" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="17" count="9" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="46" count="9" type="stmt"/>
+        </file>
+        <file name="Issues.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/Issues.ts">
+          <metrics statements="18" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="9" type="stmt"/>
+        </file>
+        <file name="MessageMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/MessageMiddleware.ts">
+          <metrics statements="15" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="21" count="9" type="stmt"/>
+        </file>
+        <file name="Messages.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/Messages.ts">
+          <metrics statements="58" coveredstatements="23" conditionals="16" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="18" count="9" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="23" count="9" type="stmt"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="49" count="9" type="stmt"/>
+          <line num="50" count="9" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="58" count="9" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="79" count="0" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+          <line num="83" count="0" type="stmt"/>
+          <line num="86" count="0" type="stmt"/>
+          <line num="87" count="0" type="stmt"/>
+          <line num="97" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="98" count="0" type="stmt"/>
+          <line num="99" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+          <line num="103" count="9" type="stmt"/>
+          <line num="104" count="0" type="stmt"/>
+          <line num="105" count="0" type="stmt"/>
+          <line num="106" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="107" count="0" type="stmt"/>
+          <line num="108" count="0" type="stmt"/>
+          <line num="111" count="0" type="stmt"/>
+          <line num="114" count="9" type="stmt"/>
+        </file>
+        <file name="NewConversionMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/NewConversionMiddleware.ts">
+          <metrics statements="28" coveredstatements="11" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="46" count="9" type="stmt"/>
+          <line num="48" count="9" type="stmt"/>
+        </file>
+        <file name="RequestResponseMapping.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/RequestResponseMapping.ts">
+          <metrics statements="64" coveredstatements="22" conditionals="13" coveredconditionals="0" methods="15" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="18" count="9" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="5"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="26" count="9" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="33" count="9" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="9" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="58" count="9" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="66" count="9" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="72" count="9" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="76" count="9" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="79" count="0" type="stmt"/>
+          <line num="80" count="0" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+          <line num="83" count="0" type="stmt"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="93" count="9" type="stmt"/>
+          <line num="94" count="0" type="stmt"/>
+          <line num="95" count="0" type="stmt"/>
+          <line num="96" count="0" type="stmt"/>
+          <line num="98" count="9" type="stmt"/>
+        </file>
+        <file name="SenderInfoMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/SenderInfoMiddleware.ts">
+          <metrics statements="18" coveredstatements="8" conditionals="9" coveredconditionals="2" methods="2" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="7" count="63" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="5"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="25" count="63" type="stmt"/>
+          <line num="27" count="9" type="stmt"/>
+        </file>
+        <file name="Suggestions.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/Suggestions.ts">
+          <metrics statements="12" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="27" count="9" type="stmt"/>
+        </file>
+        <file name="UniConfigsMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/UniConfigsMiddleware.ts">
+          <metrics statements="14" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="16" count="9" type="stmt"/>
+          <line num="18" count="9" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/index.ts">
+          <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="16" count="9" type="stmt"/>
+          <line num="17" count="9" type="stmt"/>
+          <line num="18" count="9" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+          <line num="21" count="9" type="stmt"/>
+          <line num="22" count="9" type="stmt"/>
+          <line num="23" count="9" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api.conversations.models">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="ConversationActivity.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/models/ConversationActivity.ts">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api.conversations.repositories">
+        <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="ConversationActivityRepository.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/conversations/repositories/ConversationActivityRepository.ts">
+          <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="23" count="9" type="stmt"/>
+          <line num="26" count="9" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="9" type="stmt"/>
+          <line num="33" count="9" type="stmt"/>
+          <line num="34" count="9" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api.data-analytics">
+        <metrics statements="93" coveredstatements="44" conditionals="28" coveredconditionals="6" methods="11" coveredmethods="3"/>
+        <file name="MessageComments.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/data-analytics/MessageComments.ts">
+          <metrics statements="34" coveredstatements="16" conditionals="10" coveredconditionals="2" methods="4" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+          <line num="21" count="9" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="66" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="75" count="9" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="135" count="0" type="stmt"/>
+          <line num="137" count="9" type="stmt"/>
+        </file>
+        <file name="Traffic.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/data-analytics/Traffic.ts">
+          <metrics statements="51" coveredstatements="20" conditionals="18" coveredconditionals="4" methods="7" coveredmethods="2"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="16" count="9" type="stmt"/>
+          <line num="17" count="9" type="stmt"/>
+          <line num="18" count="9" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="21" count="9" type="stmt"/>
+          <line num="27" count="9" type="stmt"/>
+          <line num="28" count="9" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="80" count="0" type="stmt"/>
+          <line num="83" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+          <line num="113" count="9" type="stmt"/>
+          <line num="114" count="0" type="stmt"/>
+          <line num="115" count="0" type="stmt"/>
+          <line num="116" count="0" type="stmt"/>
+          <line num="117" count="0" type="stmt"/>
+          <line num="126" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="127" count="0" type="stmt"/>
+          <line num="128" count="0" type="stmt"/>
+          <line num="130" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="131" count="0" type="stmt"/>
+          <line num="132" count="0" type="stmt"/>
+          <line num="181" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="182" count="0" type="stmt"/>
+          <line num="185" count="0" type="stmt"/>
+          <line num="187" count="0" type="stmt"/>
+          <line num="188" count="0" type="stmt"/>
+          <line num="190" count="9" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/data-analytics/index.ts">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api.resources">
+        <metrics statements="75" coveredstatements="20" conditionals="16" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <file name="Resources.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/resources/Resources.ts">
+          <metrics statements="69" coveredstatements="14" conditionals="16" coveredconditionals="0" methods="9" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="37" count="9" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="65" count="9" type="stmt"/>
+          <line num="66" count="0" type="stmt"/>
+          <line num="67" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="92" count="0" type="stmt"/>
+          <line num="95" count="0" type="stmt"/>
+          <line num="98" count="9" type="stmt"/>
+          <line num="99" count="0" type="stmt"/>
+          <line num="100" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+          <line num="102" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="103" count="0" type="stmt"/>
+          <line num="104" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="105" count="0" type="stmt"/>
+          <line num="106" count="0" type="stmt"/>
+          <line num="118" count="0" type="stmt"/>
+          <line num="121" count="0" type="stmt"/>
+          <line num="125" count="0" type="stmt"/>
+          <line num="128" count="9" type="stmt"/>
+          <line num="129" count="0" type="stmt"/>
+          <line num="130" count="0" type="stmt"/>
+          <line num="131" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="132" count="0" type="stmt"/>
+          <line num="135" count="0" type="stmt"/>
+          <line num="136" count="0" type="stmt"/>
+          <line num="156" count="0" type="stmt"/>
+          <line num="159" count="9" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/resources/index.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.api.users">
+        <metrics statements="94" coveredstatements="69" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="1"/>
+        <file name="Constants.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/users/Constants.ts">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+        </file>
+        <file name="Shared.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/users/Shared.ts">
+          <metrics statements="12" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+        </file>
+        <file name="Token.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/users/Token.ts">
+          <metrics statements="25" coveredstatements="18" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+          <line num="21" count="9" type="stmt"/>
+          <line num="22" count="9" type="stmt"/>
+          <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="43" count="9" type="stmt"/>
+        </file>
+        <file name="Types.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/users/Types.ts">
+          <metrics statements="12" coveredstatements="8" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="18" count="9" type="stmt"/>
+        </file>
+        <file name="Users.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/users/Users.ts">
+          <metrics statements="16" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="25" count="9" type="stmt"/>
+        </file>
+        <file name="Validate.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/users/Validate.ts">
+          <metrics statements="9" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/api/users/index.ts">
+          <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.middlewares">
+        <metrics statements="95" coveredstatements="78" conditionals="38" coveredconditionals="16" methods="18" coveredmethods="15"/>
+        <file name="KoaJwtMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/middlewares/KoaJwtMiddleware.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="27" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+        </file>
+        <file name="PageableMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/middlewares/PageableMiddleware.ts">
+          <metrics statements="29" coveredstatements="21" conditionals="25" coveredconditionals="10" methods="8" coveredmethods="5"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="cond" truecount="0" falsecount="2"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="14" type="stmt"/>
+          <line num="9" count="14" type="cond" truecount="2" falsecount="2"/>
+          <line num="10" count="14" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="14" type="cond" truecount="2" falsecount="2"/>
+          <line num="16" count="14" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="14" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="14" type="stmt"/>
+          <line num="24" count="14" type="cond" truecount="1" falsecount="1"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="14" type="stmt"/>
+          <line num="28" count="14" type="stmt"/>
+          <line num="29" count="14" type="cond" truecount="1" falsecount="1"/>
+          <line num="30" count="14" type="cond" truecount="3" falsecount="0"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="41" count="14" type="stmt"/>
+          <line num="42" count="14" type="stmt"/>
+          <line num="44" count="9" type="stmt"/>
+          <line num="46" count="9" type="stmt"/>
+        </file>
+        <file name="ResponseWrapperMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/middlewares/ResponseWrapperMiddleware.ts">
+          <metrics statements="27" coveredstatements="20" conditionals="8" coveredconditionals="3" methods="3" coveredmethods="3"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="8" count="38" type="cond" truecount="1" falsecount="1"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="38" type="cond" truecount="1" falsecount="1"/>
+          <line num="12" count="38" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="38" type="stmt"/>
+          <line num="19" count="9" type="stmt"/>
+          <line num="20" count="9" type="stmt"/>
+          <line num="21" count="47" type="stmt"/>
+          <line num="22" count="47" type="stmt"/>
+          <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="38" type="stmt"/>
+          <line num="36" count="38" type="stmt"/>
+          <line num="37" count="38" type="stmt"/>
+          <line num="38" count="38" type="stmt"/>
+          <line num="39" count="38" type="cond" truecount="1" falsecount="1"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="44" count="9" type="stmt"/>
+          <line num="46" count="9" type="stmt"/>
+        </file>
+        <file name="TokenMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/middlewares/TokenMiddleware.ts">
+          <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="5" type="stmt"/>
+          <line num="8" count="5" type="stmt"/>
+          <line num="9" count="5" type="stmt"/>
+          <line num="11" count="9" type="stmt"/>
+          <line num="13" count="9" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+        </file>
+        <file name="ValidationMiddleware.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/middlewares/ValidationMiddleware.ts">
+          <metrics statements="15" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
+          <line num="2" count="9" type="stmt"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="cond" truecount="1" falsecount="0"/>
+          <line num="8" count="45" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+          <line num="10" count="9" type="cond" truecount="1" falsecount="1"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="9" type="stmt"/>
+          <line num="16" count="9" type="stmt"/>
+          <line num="19" count="45" type="stmt"/>
+          <line num="21" count="9" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/tomlai/Documents/projects/workspace/lexica-os/lexica-virtual-agent-admin-backend/src/middlewares/index.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="3" count="36" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="8" count="9" type="stmt"/>
+          <line num="9" count="9" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

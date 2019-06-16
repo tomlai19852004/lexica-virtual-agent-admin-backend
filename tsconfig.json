@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "outDir": "dist",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "removeComments": true,
+        "declaration": true,
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "__tests__",
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
