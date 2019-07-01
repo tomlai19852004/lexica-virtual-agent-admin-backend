@@ -19,8 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/tomlai19852004/lexica-virtual-agent-admin-backend.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Lexica"
+  ],
+  "author": "Tom Lai",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tomlai19852004/lexica-virtual-agent-admin-backend/issues"

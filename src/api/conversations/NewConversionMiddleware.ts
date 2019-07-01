@@ -42,31 +42,34 @@ const newConversionMiddleware = () => {
         const messageTemplates = sample(
           uniConfigs.get(CONFIG_KEYS.PREPEND_MESSAGES_PRIOR_TO_LIBRARIAN_REPLY).value,
         );
+        
+        if(messageTemplates){
+          const responseTemplate = template(messageTemplates.response);
+          const runTimeConfigTemplate = template(messageTemplates.additional_time_gap_response);
 
-        const responseTemplate = template(messageTemplates.response);
-        const runTimeConfigTemplate = template(messageTemplates.additional_time_gap_response);
+          const response: TextResponse = {
+            message: responseTemplate({
+              LIBRARIAN_INDICATOR: uniConfigs.get(CONFIG_KEYS.LIBRARIAN_INDICATOR).value,
+              firstName,
+            }),
+            type: ResponseType.TEXT,
+          };
 
-        const response: TextResponse = {
-          message: responseTemplate({
-            LIBRARIAN_INDICATOR: uniConfigs.get(CONFIG_KEYS.LIBRARIAN_INDICATOR).value,
-            firstName,
-          }),
-          type: ResponseType.TEXT,
-        };
+          if (uniConfigs.has(RunTimeConfig.TIME_GAP_IN_MS_TRIGGER_CONFIRM_CLOSE_ISSUE)) {
+            const ms = uniConfigs.get(
+              RunTimeConfig.TIME_GAP_IN_MS_TRIGGER_CONFIRM_CLOSE_ISSUE,
+            ).value;
+            response.message += '\n';
+            response.message += runTimeConfigTemplate({
+              RECREATE_ISSUE_KEY_WORD: uniConfigs.get(CONFIG_KEYS.RECREATE_ISSUE_KEY_WORD).value,
+              TIME_GAP: ms / 60 / 1000,
+            });
+          }
 
-        if (uniConfigs.has(RunTimeConfig.TIME_GAP_IN_MS_TRIGGER_CONFIRM_CLOSE_ISSUE)) {
-          const ms = uniConfigs.get(
-            RunTimeConfig.TIME_GAP_IN_MS_TRIGGER_CONFIRM_CLOSE_ISSUE,
-          ).value;
-          response.message += '\n';
-          response.message += runTimeConfigTemplate({
-            RECREATE_ISSUE_KEY_WORD: uniConfigs.get(CONFIG_KEYS.RECREATE_ISSUE_KEY_WORD).value,
-            TIME_GAP: ms / 60 / 1000,
-          });
+          ctx.state.systemMessage = response;
+          ctx.state.systemMessageDate = new Date();
         }
-
-        ctx.state.systemMessage = response;
-        ctx.state.systemMessageDate = new Date();
+        
       }
     }
 
