@@ -13,7 +13,6 @@ RUN apk add \
 
 COPY package.json package.json
 RUN npm install
-# RUN mv /app/node_modules /node_modules
 
 COPY src src
 COPY tsconfig.json tsconfig.json
