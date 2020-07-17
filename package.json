@@ -73,7 +73,7 @@
     "lexica-dialog-facebook-messenger": "^1.0.8",
     "lexica-dialog-model": "^1.0.1",
     "lexica-dialog-repository": "^1.0.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "moment": "^2.20.1",
     "pm2": "^2.9.1",
     "scrypt": "^6.0.3",
