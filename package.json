@@ -74,7 +74,7 @@
     "lexica-dialog-model": "^1.0.1",
     "lexica-dialog-repository": "^1.0.0",
     "lodash": "^4.17.4",
-    "moment": "^2.20.1",
+    "moment": "^2.29.4",
     "pm2": "^2.9.1",
     "scrypt": "^6.0.3",
     "winston": "^2.4.0"
