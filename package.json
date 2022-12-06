@@ -67,7 +67,7 @@
     "koa-bodyparser": "^4.2.0",
     "koa-compose": "^4.0.0",
     "koa-jwt": "^3.2.2",
-    "koa-qs": "^2.0.0",
+    "koa-qs": "^3.0.0",
     "koa-router": "^7.3.0",
     "lexica-dialog-core": "^1.0.4",
     "lexica-dialog-facebook-messenger": "^1.0.8",
