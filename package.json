@@ -61,7 +61,7 @@
     "dotenv": "^4.0.0",
     "immutable": "^3.8.2",
     "joi": "^10.6.0",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "kcors": "^2.2.1",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
